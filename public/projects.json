@@ -1,0 +1,76 @@
+[
+  {
+    "_id": 1,
+    "name": "Design Crafters",
+    "image": "https://i.ibb.co/1T8n0yf/screencapture-design-crafters-b399f-web-app-2023-07-07-21-32-55.png",
+    "details": "It is a design course selling website where student can buy a course Instructor can add a class and admin can make a use admin or instructor",
+    "used_technologies": ["React", "JWT Token", "MongoDB", "Stripe","Node Js","Express js","Cors"],
+    "features": 
+    [
+      "Server 3 type of user Student,instructor,admin", 
+      "Student can add a course in his card and pay for the course by using Stripe ", 
+      "Instructor can add a class and see his class status", 
+      "Admin can make a user admin or instructor.Also he can approved or deny a class "
+    ],
+    "account": ["admin: admin@gmail.com Password:12345678Me@","student: student@gmail.com Password:12345678Me@","Instructor: Instructor@gmail.com Password:12345678Me@"],
+    "links": {
+      "git_code": "https://github.com/naimeh461/Design_Crafters",
+      "live_site": "https://design-crafters-b399f.web.app/"
+    }
+  },
+  {
+    "_id": 2,
+    "name": "Super Toy",
+    "image": "https://i.ibb.co/rMHTFbr/screencapture-super-toys-ba4d5-web-app-2023-07-08-12-38-36.png",
+    "details": "It is a toy related website , Here use can add a toy,delete and modify his own added toy and see all added toy.",
+    "used_technologies": ["React", "Tailwind", "DaisyUI", "Firebase", "MongoDB", "NodeJs", "Express js"],
+    "account": ["user: user@gmail.com","Password:12345678Me@"],
+    "links": {
+      "git_code": "https://github.com/naimeh461/Super-Toys",
+      "live_site": "https://super-toys-ba4d5.web.app/"
+    },
+    "features": 
+    [
+      "This website is a Super hero toy related website.",
+      "Here I use Mongo DB as a data base for this website.",
+      "I use CRUD operation for load and write and delete data from server."
+    ]
+  },
+  {
+    "_id": 3,
+    "name": "TechCareer",
+    "image": "https://i.ibb.co/QDjQZ4Q/screencapture-stellular-elf-23af06-netlify-app-2023-07-08-19-12-18-1.png",
+    "details": "It is a job related website any tech person can find a job and can see the job Details and the apply for the job and the job will show on Applied Jobs by using Local storage database",
+    "used_technologies": ["HTML", "CSS", "JavaScript", "React", "Tailwind", "DaisyUI",  "local storage"],
+    "links": {
+      "git_code": "https://github.com/naimeh461/TechCarrer",
+      "live_site": "https://stellular-elf-23af06.netlify.app/"
+    },
+    "account": ["user: user@gmail.com","Password:12345678Me@"],
+    "features": 
+    [
+      "This project is about a job tech job site project where we can apply for jobs.",
+      "Home page where It show all the page details and we can see the job category and job Featured and what kind of job are available.",
+      "Applied Jobs section show all the Applied jobs by using local storage."
+    ]
+
+  },
+  {
+    "_id": 4,
+    "name": "Food Fun",
+    "image": "https://i.ibb.co/3fzQXZJ/screencapture-food-fun-26b27-web-app-2023-07-08-19-24-01.png",
+    "details": "It is Food Related website.Here we can see Top Chef in home page and When we Click view details the we can see the chef details and his 3 recipes.we also implement user authentication by using firebase",
+    "used_technologies": ["HTML", "CSS", "JavaScript", "React", "Tailwind", "DaisyUI", "Firebase","Node Js", "Express js"],
+    "links": {
+      "git_code": "https://github.com/naimeh461/Food-Fun",
+      "live_site": "https://food-fun-26b27.web.app/"
+    },
+    "account": ["user: user@gmail.com","Password:12345678Me@"],
+    "features": 
+    [
+      "This website is a food related website.",
+      "Data from sever site and load data on website.",
+      "email passowrd log in and register and also git hub and google firebase Authentication."
+    ]
+  }
+]
