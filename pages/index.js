@@ -20,9 +20,14 @@ const Home = () => {
           animate="show"
           exit="hidden"
           className="max-w-md xl:max-w-2xl mx-auto xl:mx-0 mb-10 xl:mb-16 xl:text-start text-sm lg:text-base">Welcome to my portfolio website! As a dedicated web developer, I specialize in crafting exceptional websites using the powerful MERN stack. With a passion for creativity and a commitment to excellence, I bring a unique touch to every project. Explore my portfolio to witness the artistry and functionality of my creations.Let us embark on a journey together to build remarkable digital experiences.</motion.p>
-        <div className="flex justify-center xl:hidden z-30 h[90px] ">
+        <motion.div
+        variants={fadeIn("down", 0.1)}
+        initial="hidden"
+        animate="show"
+        exit="hidden"
+        className="flex justify-center xl:hidden z-30">
           <ProjectsBtn />
-        </div>
+        </motion.div>
         <motion.div
           variants={fadeIn("down", 0.4)}
           initial="hidden"
