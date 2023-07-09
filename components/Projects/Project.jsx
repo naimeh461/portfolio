@@ -21,7 +21,7 @@ const Project = ({ project }) => {
     return (
         <div data-aos="fade-up" data-aos-duration="1200" className="border border-[#6f54ef] rounded-lg overflow-hidden flex flex-col h-full my-auto">
             <div className="   overflow-hidden lg:h-[300px] h-[100px]">
-                <img className="w-full h-full object-cover object-top hover:object-bottom duration-[6000ms]" src={project.image} alt="" />
+            <picture>   <img className="w-full h-full object-cover object-top hover:object-bottom duration-[6000ms]" src={project.image} alt="" /> </picture>
             </div>
 
             <div className="p-5 flex flex-col -mt-2 lg:mt- lg:h-[60%] h-[80%]">

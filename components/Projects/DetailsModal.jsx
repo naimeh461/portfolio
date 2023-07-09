@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-
 const DetailsModal = ({ id, setOpenModal }) => {
     const [project, setProject] = useState({})
 
@@ -9,7 +8,7 @@ const DetailsModal = ({ id, setOpenModal }) => {
             setProject(project)
             console.log(project)
         })
-    }, [])
+    }, )
 
     return (
         <div style={{ backgroundImage: 'url(	https://tailwindcss.com/_next/static/media/hero-dark@90.dba36cdf.jpg)', backgroundSize: 'cover', backgroundPosition: 'top' }} data-aos="flip-left" className="fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-hidden md:inset-0 h-screen max-h-screen flex justify-center items-center bg-gray-900">
@@ -21,7 +20,7 @@ const DetailsModal = ({ id, setOpenModal }) => {
                 <div data-aos="zoom-in" data-aos-duration="400" data-aos-easing="ease-in-out" className="bg-gradient-to-br from-[#0F2033] via-[#1B1631] to-[#0F172B] p-5 overflow-hidden rounded-lg flex flex-col h-full">
                     <h3 className="mb-3 text-xl font-bold text-gray-100">{project.name}</h3>
                     <div className="overflow-hidden h-[300px]">
-                        <img className="w-full h-full object-cover object-top hover:object-bottom duration-[3000ms]" src={project.image} alt="" />
+                    <picture>  <img className="w-full h-full object-cover object-top hover:object-bottom duration-[3000ms]" src={project.image} alt="" /> </picture>
                     </div>
                     <div className="mt-3 mb-5">
                         <h3 className="mb-3 text-xl font-bold text-gray-100">Used Technologies</h3>

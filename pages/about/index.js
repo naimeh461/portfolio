@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 import { FaCss3, FaFigma, FaHtml5, FaJs, FaReact, FaWordpress , FaBootstrap , FaNodeJs , FaStripe, FaJava } from "react-icons/fa";
 import { VscDebugConsole } from "react-icons/vsc";
 import { BiExtension , BiLogoNetlify} from "react-icons/bi";
@@ -11,59 +12,36 @@ import { fadeIn } from "../../variants"
 export const aboutData = [
   {
     title: 'Expertise',
-    icons: [
-      <FaHtml5 />,
-      <FaCss3 />,
-      <FaBootstrap/>,
-      <SiTailwindcss />,
-      <SiDaisyui />,
-      
-    ],
-    icons1: [
-      <SiFirebase />,
-      <FaReact />,
-      <SiCloudera/>,
-      <SiCplusplus/>,
-      
-    ],
-    
+    icons: [<FaHtml5 key="html" />, <FaCss3 key="css" />, <FaBootstrap key="bootstrap" />, <SiTailwindcss key="tailwind" />, <SiDaisyui key="daisyui" />],
+    icons1: [<SiFirebase key="firebase" />, <FaReact key="react" />, <SiCloudera key="cloudera" />, <SiCplusplus key="cplusplus" />],
   },
   {
     title: 'Comfortable',
     icons: [
-      <SiJavascript />,
-      <SiReactrouter />,
-      <SiMongodb />,
-      <VscDebugConsole/>,
-      <BiExtension/>
+      <SiJavascript key="javascript" />,
+      <SiReactrouter key="reactrouter" />,
+      <SiMongodb key="mongodb" />,
+      <VscDebugConsole key="debugconsole" />,
+      <BiExtension key="extension" />,
     ],
   },
   {
     title: 'Familiar',
-    icons: [
-      <FaJava />,
-      <SiExpress />,
-      <FaNodeJs />,
-      <FaStripe />,
-      <SiNextdotjs />,
-
-    ],
+    icons: [<FaJava key="java" />, <SiExpress key="express" />, <FaNodeJs key="nodejs" />, <FaStripe key="stripe" />, <SiNextdotjs key="nextjs" />],
   },
   {
     title: 'Tools',
     icons: [
-      <SiAdobeillustrator/>,
-      <FaFigma/>,
-      <TbBrandVscode/>,
-      <BiLogoNetlify/>,
-      <SiNotion/>
-
+      <SiAdobeillustrator key="illustrator" />,
+      <FaFigma key="figma" />,
+      <TbBrandVscode key="vscode" />,
+      <BiLogoNetlify key="netlify" />,
+      <SiNotion key="notion" />,
     ],
     icons1: [
-      <PiMicrosoftExcelLogoFill/>,
-      <PiMicrosoftPowerpointLogoFill/>,
-      <PiMicrosoftWordLogoFill/>
-
+      <PiMicrosoftExcelLogoFill key="excel" />,
+      <PiMicrosoftPowerpointLogoFill key="powerpoint" />,
+      <PiMicrosoftWordLogoFill key="word" />,
     ],
   },
 ];
