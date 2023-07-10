@@ -23,7 +23,7 @@ const AboutMe = () => {
                             1000,
                         ]}
                     speed={30}
-                    style={{ fontWeight: 'bold', color: "red" }}
+                    style={{ fontWeight: 'bold', color: "white" }}
                     repeat={Infinity}
                 />
             </div>
